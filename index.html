@@ -23,7 +23,7 @@
                         28/11/2020 19:00
                     </h4>
                     <h5 class="current-weather">
-                        Sunny, 🌡 <span id="current-temperature">3</span>
+                        <span id="description">Sunny</span>, 🌡 <span id="current-temperature">3</span>°C
                     </h5>
                 </div>
                 <div class="col-2">
@@ -32,15 +32,15 @@
                     </span>
                 </div>
                 <div class="col-2">
-                    <form class="row g-2" id="search-city-form">
+                    <form class="row g-2" class="search-form" id="search-city-form">
                         <input type="text" class="form-control" id="city-input" placeholder="Enter a city" />
                         <button type="submit" class="btn btn-secondary">Search</button>
                     </form>
                     <br />
                     <div class="other-info">
-                        Humidity: 20%
+                        Humidity: <span id="humidity">20</span>%
                         <br />
-                        Wind: 15km
+                        Wind: <span id="wind">15</span>km
                     </div>
                 </div>
             </div>
