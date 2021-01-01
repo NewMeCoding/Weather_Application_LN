@@ -55,3 +55,7 @@ button {
   margin: 0 auto;
   position: relative;
 }
+.open-source-link {
+  text-align: center;
+  padding-left: 20px;
+}
