@@ -1,30 +1,54 @@
-h1,
-h4,
-h5 {
-  padding-left: 55px;
-}
 h1 {
-  font-size: 28px;
-  font-family: system-ui;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: 700;
   color: white;
+  padding-left: 25px;
 }
-h4,
-h5 {
+ul {
+  padding-left: 12px;
+  margin-left: 12px;
+}
+li {
+  list-style: none;
   font-size: 14px;
   font-family: system-ui;
   font-weight: 700;
+  line-height: 20px;
 }
+
 button {
-  padding-left: 60px;
+  margin: 0;
 }
-.container {
+small {
+  padding-left: 25px;
+  position: relative;
+  top: -20px;
+}
+.weather-app-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.weather-app {
   background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
   border: 0.5px solid lightgray;
   border-radius: 10px;
   padding: 50px 20px;
   padding-right: 20px;
   margin: 50px 20px;
+}
+.search-form {
+  margin-bottom: 30px;
+  width: 650px;
+}
+
+.form-control {
+  margin-left: -25px;
+}
+
+.current-weather {
+  font-size: 17px;
 }
 .day {
   text-align: center;
@@ -39,8 +63,9 @@ button {
   font-weight: 500;
 }
 .todays-weather {
-  padding-left: 0px;
-  margin-left: 0;
+  position: relative;
+  padding-left: 30px;
+  top: -20px;
 }
 
 .other-info {
